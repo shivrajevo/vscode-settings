@@ -55,7 +55,7 @@
     "python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
     "files.autoSave": "afterDelay",
     "breadcrumbs.enabled": false,
-    "[python]": { // Here
+    "[python]": { 
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true
     },
