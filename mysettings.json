@@ -52,10 +52,14 @@
     "code-runner.executorMap": {
         "javascript": "nodemon"
     },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
+    "files.autoSave": "afterDelay",
+    "breadcrumbs.enabled": false,
+    "[python]": { // Here
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
     },
-    "python.formatting.provider": "black",
+    "black-formatter.showNotifications": "always",
     "python.analysis.completeFunctionParens": true,
     // "code-runner.saveFileBeforeRun": true,
     "code-runner.saveAllFilesBeforeRun": true,
@@ -74,6 +78,7 @@
         "❮": true,
         "❯": true
     },
+    
     // "autoDocstring.startOnNewLine": true,
     // "autoDocstring.includeName": true,
     // "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
