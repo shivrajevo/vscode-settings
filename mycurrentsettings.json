@@ -16,19 +16,25 @@
     "code-runner.saveFileBeforesRun": true,
     "workbench.colorCustomizations": {
         "[Monokai]": {
-            "titleBar.activeBackground": "#262626",
-            "editor.background": "#202020",
+            "titleBar.activeBackground": "#000000",
+            "titleBar.border": "#2e2e2e",
+            "editor.background": "#020202",
             "editorLineNumber.activeForeground": "#7dff1a",
-            "editor.lineHighlightBackground": "#353535",
-            "activityBar.background": "#171717",
+            "editor.lineHighlightBackground": "#1d1d1d",
+            "activityBar.background": "#000000",
             "activityBar.activeBackground": "#1f8ce6",
             "activityBar.activeBorder": "#ffffff",
-            "sideBar.background": "#181818",
-            "sideBar.border": "#ffffff77",
-            "tab.activeBackground": "#171717",
+            "activityBar.border": "#2e2e2e",
+            "sideBar.background": "#000000",
+            "sideBarSectionHeader.background": "#2e2e2e",
+            "sideBar.border": "#ffffff",
+            "editorGroupHeader.tabsBackground": "#000000",
+            "editorGroupHeader.border": "#2e2e2e",
+            "tab.inactiveBackground": "#171717",
+            "tab.activeBackground": "#000000",
             "tab.activeBorderTop": "#171717",
-            "tab.activeBorder": "#fff200",
-            "menu.background": "#212121ea",
+            "tab.activeBorder": "#eeff00",
+            "menu.background": "#000000f1",
             "menu.selectionBackground": "#1f8ce6",
             "menu.selectionForeground": "#ffffff",
             "menu.border": "#ffffff77",
@@ -36,8 +42,14 @@
             "menubar.selectionBackground": "#1f8ce6",
             "menubar.selectionForeground": "#ffffff",
             "scrollbarSlider.activeBackground": "#1f8ce68f",
-            "statusBar.background": "#171717"
+            "statusBar.background": "#000000",
+            "statusBar.border": "#2e2e2e",
+            "editorGroup.emptyBackground": "#111111",
+            "editorSuggestWidget.background": "#1d1d1d"
         },
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html",
     },
     "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "git.autofetch": true,
@@ -52,10 +64,15 @@
     "code-runner.executorMap": {
         "javascript": "nodemon"
     },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "breadcrumbs.enabled": false,
+    "[python]": { // Here
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
     },
-    "python.formatting.provider": "black",
+    "black-formatter.showNotifications": "always",
     "python.analysis.completeFunctionParens": true,
     // "code-runner.saveFileBeforeRun": true,
     "code-runner.saveAllFilesBeforeRun": true,
