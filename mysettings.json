@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0.5,
+    // by https://github.com/Shivrajstark/vscode-settings
     "editor.fontSize": 18,
     "editor.fontFamily": "JetBrains Mono,fira code",
     "editor.fontLigatures": true,
@@ -14,6 +14,8 @@
     "explorer.confirmDelete": false,
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforesRun": true,
+
+    // edit monokai theme
     "workbench.colorCustomizations": {
         "[Monokai]": {
             "titleBar.activeBackground": "#000000",
@@ -48,9 +50,7 @@
             "editorSuggestWidget.background": "#1d1d1d"
         },
     },
-    "emmet.includeLanguages": {
-        "django-html": "html",
-    },
+
     "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "git.autofetch": true,
     "workbench.startupEditor": "none",
@@ -68,7 +68,7 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
     "breadcrumbs.enabled": false,
-    "[python]": { // Here
+    "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true
     },
@@ -87,19 +87,16 @@
     ],
     "liveServer.settings.donotShowInfoMsg": true,
     "git.enableSmartCommit": true,
-    "editor.unicodeHighlight.allowedCharacters": {
-        "❮": true,
-        "❯": true
+    "emmet.includeLanguages": {
+        "django-html": "html"
     },
-    // "autoDocstring.startOnNewLine": true,
-    // "autoDocstring.includeName": true,
-    // "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    // "php.validate.executablePath": "C:xampp\\php\\php.exe",
-    // "php.validate.enable": false,
-    // "C_Cpp.autocompleteAddParentheses": true,
-    // "php.suggest.basic": false,
-    // "emmet.excludeLanguages": [
-    //     "markdown",
-    //     "php"
-    // ],
+    "python.languageServer": "Pylance",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.bracketSameLine": true,
+    "git.confirmSync": false,
+    "workbench.editorAssociations": {
+        "*.docx": "default"
+    },
+    "explorer.confirmPasteNative": false,
+    "window.zoomLevel": 0.7,
 }
