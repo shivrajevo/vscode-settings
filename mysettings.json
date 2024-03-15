@@ -1,5 +1,5 @@
 {
-    // by https://github.com/Shivrajstark/vscode-settings
+    // by https://github.com/shivrajevo/vscode-settings
     "editor.fontSize": 18,
     "editor.fontFamily": "JetBrains Mono,fira code",
     "editor.fontLigatures": true,
